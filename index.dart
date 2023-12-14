@@ -5,7 +5,7 @@ void main() {
     // print("My name is $name");
 
   //variables
-  String firstName = "Bloom";
+  String? firstName = "Bloom";
   var lastName = 'Tauta';
 
   print("My name is $firstName $lastName");
@@ -17,4 +17,12 @@ void main() {
   var total = number + number2 +number3;
 
   print("The total of ($number+$number2+$number3) is $total");
+
+  //strings
+
+  var string = 'This is a simple string.';
+  String string2 = "Isn't string 1 a string?";
+  String string3 = 'This is also a string, isnt\'t it?';
+
+  print('$string \n $string2 \n $string3 \n');
 }
