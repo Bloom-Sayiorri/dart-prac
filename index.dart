@@ -6,9 +6,10 @@ void main() {
 
   //variables
   String? firstName = "Bloom";
-  var lastName = 'Tauta';
-
+  dynamic lastName = 'Tauta';
   print("My name is $firstName $lastName");
+  lastName = 'Sayiorri';
+  print('My other name is $lastName');
 
   //data types
   var number = 2;
