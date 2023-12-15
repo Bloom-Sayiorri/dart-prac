@@ -22,8 +22,8 @@ void main() {
   //strings
 
   var string = 'This is a simple string.';
-  String string2 = "Isn't string 1 a string?";
-  String string3 = 'This is also a string, isnt\'t it?';
+  String string2 = "Isn't this not affected by the string delimiter?";
+  String string3 = 'This is affected by string delimiter so we use a backslash, isnt\'t it?';
 
   print('$string \n $string2 \n $string3 \n');
 }
