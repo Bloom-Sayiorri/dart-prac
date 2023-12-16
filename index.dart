@@ -28,6 +28,9 @@ void main() {
   print('$string \n $string2 \n $string3 \n');
 
   //string conversion
+  String oneAsString = '1';
+  assert(oneAsString == '1');
 
+  
   
 }
