@@ -31,6 +31,7 @@ void main() {
   String oneAsString = '1';
   assert(oneAsString == '1');
 
-  
-  
+  //double conversion
+  String piAsString = 3.14159.toStringAsFixed(2)
+  assert(piAsString == '3.14');
 }
