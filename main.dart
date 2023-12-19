@@ -5,11 +5,16 @@ void main() {
     // print("My name is $name");
 
   //variables
+  var variable = 'This is a string and it cannot be reassigned because we used var';
+  print(variable);
   String? firstName = "Bloom";
+  // dynamic variables have their types(values) changed at runtime
   dynamic lastName = 'Tauta';
   print("My name is $firstName $lastName");
   lastName = 'Sayiorri';
   print('My other name is $lastName');
+  const integer = 1;
+  print(integer);
 
   //data types
   var number = 2;
@@ -34,4 +39,15 @@ void main() {
   //double conversion. The 2 in brackets is for two decimal places
   String piAsString = 3.14159.toStringAsFixed(2);
   assert(piAsString == '3.14');
+
+  //OPERATORS
+  
+  //we have + - * / and % 
+  //if you want ot check for relational use ==, !=, >= and <=
+  var num = 0;
+  if (num ==0) {
+    print('Zero');
+  }
+ //shortcut value
+ num *= 2; //this means num = num * 2 
 }
