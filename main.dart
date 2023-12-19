@@ -28,10 +28,10 @@ void main() {
   print('$string \n $string2 \n $string3 \n');
 
   //string conversion
-  String oneAsString = '1';
+  String oneAsString = 1.toString();
   assert(oneAsString == '1');
 
-  //double conversion
-  String piAsString = 3.14159.toStringAsFixed(2)
+  //double conversion. The 2 in brackets is for two decimal places
+  String piAsString = 3.14159.toStringAsFixed(2);
   assert(piAsString == '3.14');
 }
