@@ -1,3 +1,4 @@
+import 'dart:ffi';
 import 'dart:io';
 void main() {
     // stdout.writeln("Hi, my name is: ?");
@@ -44,10 +45,21 @@ void main() {
   
   //we have + - * / and % 
   //if you want ot check for relational use ==, !=, >= and <=
-  var num = 0;
+  int num = 10 + 22;
+  num = num - 2;
+  print(num);
+
+  num = num % 5;
+  print(num);
+
   if (num ==0) {
     print('Zero');
   }
  //shortcut value
- num *= 2; //this means num = num * 2 
+ num *= 2; //this means num = num * 2
+
+ var x = 100;
+ if(x is int) {
+  print("integer");
+ }
 }
