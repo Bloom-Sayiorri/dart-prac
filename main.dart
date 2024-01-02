@@ -66,9 +66,9 @@ void main() {
 
  // loops
 
-  int num = 5;
-  while(num > 0) {
-    print(num);
-    num -= 1;
+  int value = 5;
+  while(value > 0) {
+    print(value);
+    value -= 1;
   }
 }
