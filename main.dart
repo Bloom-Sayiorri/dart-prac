@@ -1,11 +1,11 @@
 import 'dart:ffi';
 import 'dart:io';
 void main() {
-    // stdout.writeln("Hi, my name is: ?");
-    // String? name = stdin.readLineSync();
-    // print("My name is $name");
+    stdout.writeln("Hi, my name is: ?");
+    String? name = stdin.readLineSync();
+    print("My name is $name");
 
-  //variables
+  // variables
   var variable = 'This is a string and it cannot be reassigned because we used var';
   print(variable);
   String? firstName = "Bloom";
@@ -59,7 +59,16 @@ void main() {
  num *= 2; //this means num = num * 2
 
  var x = 100;
+ // ignore: unnecessary_type_check
  if(x is int) {
   print("integer");
  }
+
+ // loops
+
+  int num = 5;
+  while(num > 0) {
+    print(num);
+    num -= 1;
+  }
 }
