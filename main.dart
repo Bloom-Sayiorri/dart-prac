@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'dart:io';
 void main() {
     stdout.writeln("Hi, my name is: ?");
